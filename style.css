@@ -10,9 +10,12 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 .container {
-  margin: 20px auto;
+  margin: 0px auto;
   width: 970px;
   max-width: none !important;
   min-height: 100vh;
@@ -24,7 +27,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 40px;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
 }
 
 .profile-info .name {
@@ -41,9 +47,7 @@ body {
 }
 .profile-info .summary {
   letter-spacing: 0.3px;
-}
-.profile-image {
-  border-radius: 50%;
+  font-weight: 300;
 }
 
 .profile-image {
@@ -69,6 +73,12 @@ body {
   color: white;
   height: 50px;
 }
+
+.contacts-list .list-social {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 .contacts-list div {
   cursor: pointer;
 }
@@ -79,7 +89,7 @@ body {
   font-size: 16px;
 }
 .content {
-  padding: 40px 40px;
+  padding: 10px 40px 0px 40px;
 }
 
 .center-section .title,
@@ -190,20 +200,66 @@ body {
 }
 
 .center-section .achievements-list ul li {
+  font-size: 17px;
   list-style-type: square;
   margin-left: 5px;
   margin-bottom: 5px;
   padding: 0;
 }
 
+.center-section .achievements-list ul li p {
+  margin: 0;
+  color: #0074b7;
+}
+
+.center-section .tecnical-skills-list {
+  margin: 15px 0px 15px 30px;
+}
+
+.center-section .tecnical-skills-list p {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.center-section .tecnical-skills-list ul {
+  margin: 0;
+  margin-bottom: 5px;
+}
 .center-section .tecnical-skills-list ul li {
+  font-size: 14px;
   list-style-type: square;
-  margin-left: 5px;
-  margin-bottom: 5px;
+  color: #0074b7;
   padding: 0;
 }
 
+.center-section .tecnical-skills-list ul li p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.center-section .project-list {
+  margin-bottom: 20px;
+}
+
+.center-section .project-list ul li {
+  width: 80%;
+}
+
+.center-section .project-list ul li {
+  font-size: 17px;
+  font-weight: 500;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+.center-section .project-list ul li p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  color: #0074b7;
+}
 .footer {
-  height: 50px;
+  height: 58px;
   background-color: #000066;
 }
