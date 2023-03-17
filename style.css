@@ -64,14 +64,56 @@ a {
 .profile-info {
   padding: 10px 20px;
 }
-.contacts-list {
+.tabs {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
   background-color: #000066;
   color: white;
   height: 50px;
+}
+
+.tab-menus {
+  top: -2.5px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  gap: 5px;
+  margin-left: 40px;
+}
+
+.tab-menus button {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+  height: 35px;
+  padding: 0px 20px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-color: #000066;
+}
+
+.tab-menus button.active {
+  height: 55px;
+  font-size: 20px;
+  border-bottom-color: #fff;
+  border-bottom-style: none;
+}
+
+.tab-menus button:hover {
+  color: #0074b7;
+  transform: scale(1.05);
+}
+
+.contacts-list {
+  display: flex;
+  gap: 15px;
+  margin: 0px 40px 0px 20px;
 }
 
 .contacts-list .list-social {
@@ -89,6 +131,7 @@ a {
   font-size: 16px;
 }
 .content {
+  background-color: #fff;
   padding: 10px 40px 0px 40px;
 }
 
@@ -260,6 +303,21 @@ a {
   color: #0074b7;
 }
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   height: 58px;
   background-color: #000066;
+  color: #fff;
+  padding: 0px 40px;
+}
+
+.footer-content {
+  text-align: right;
+}
+
+.second-content {
+  min-height: 600px;
+  background-color: #fff;
+  padding: 10px 40px 0px 40px;
 }

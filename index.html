@@ -23,65 +23,66 @@
       <div class="header">
         <div class="profile">
           <div class="profile-image">
-            <img
-              src="https://scontent.fbkk6-2.fna.fbcdn.net/v/t39.30808-6/319309284_3328222327444944_8142548338685248434_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFZ8KTPJHA0ltmcnh_3_DIIoF2lpqUcjTigXaWmpRyNODP1QW2MLKdCLDzazxaLG71V98NCTSI-_bfT1BTFpyJj&_nc_ohc=hk9mynbnNWkAX9GRej0&_nc_ht=scontent.fbkk6-2.fna&oh=00_AfBFNsG9QmIix9NMaA3yv8blsPg0pMRxXuGrnTaKSKOCOQ&oe=63DE712C"
-              alt="Kritsana Wipankhet"
-            />
+            <img src="./profile-picture.jpg" alt="Kritsana Wipankhet" />
           </div>
           <div class="profile-info">
             <div class="name">KRITSANA WIPANKHET</div>
             <div class="faculty">Web & Program Developer</div>
             <div class="summary">
               Freelance Web Designer & Developer. I design and develop websites,
-              landing pages , web applications , mobile applications , IOT
-              development. A consultant for project advice related to the
-              development for friends and students or the general public.
-              experienced with all stages of the development cycle for web
-              projects. Well-versed in numerous programming languages including
-              JavaScript(React.js , React Native , Next.js, Node.js ), Flutter
-              (Dart) , Typescript , PHP OOP (Laravel), ASP.NET (.NET6) , CSS and
-              Solidity
+              <!-- landing pages , -->
+              web applications , mobile applications , IOT development. Be a
+              consultant and recommend about the development of applications for
+              friends, students and the general public. experienced with all
+              stages of the development for web projects. Excellent knowledge in
+              many programming languages such as JavaScript(React.js ,
+              <!-- React Native ,  -->
+              Next.js, Node.js ), Flutter (Dart) , Typescript , PHP OOP
+              (Laravel), ASP.NET (.NET6) , CSS and Solidity
             </div>
           </div>
         </div>
-        <div class="contacts-list">
-          <div>
-            <i class="fa-solid fa-phone"></i> <span> +66 82-6165190</span>
-          </div>
-          <div>
-            <a href="mailto:kritsanawipankhet@icloud.com" target="_blank"
-              ><i class="fa-solid fa-envelope"></i
-              ><span> Kritsana.wipankhet@icloud.com</span></a
-            >
-          </div>
-          <div class="list-social">
-            <!-- <div>
-              <a
-                href="https://www.facebook.com/Kritsanawipankhet/"
-                target="_blank"
-                ><i class="fa-brands fa-facebook-square"></i
-              ></a>
-            </div> -->
+        <div class="tabs">
+          <div id="tab-menus" class="tab-menus"></div>
+          <div class="contacts-list">
             <div>
-              <a
-                href="https://www.linkedin.com/in/kritsanawipankhet/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
+              <i class="fa-solid fa-phone"></i> <span> +66 82-6165190</span>
             </div>
             <div>
-              <a href="https://github.com/Kritsanawipankhet" target="_blank"
-                ><i class="fa-brands fa-github-square"></i><span></span
-              ></a>
+              <a href="mailto:kritsanawipankhet@icloud.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+                ><span> Kritsana.Wipankhet@icloud.com</span></a
+              >
+            </div>
+            <div class="list-social">
+              <!-- <div>
+                <a
+                  href="https://www.facebook.com/Kritsanawipankhet/"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-square"></i
+                ></a>
+              </div> -->
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/kritsanawipankhet/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </div>
+              <div>
+                <a href="https://github.com/Kritsanawipankhet" target="_blank"
+                  ><i class="fa-brands fa-github-square"></i><span></span
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="content">
+      <div id="on-the-road" class="content" style="display: block">
         <div class="work-section">
           <div class="experience">
             <div class="title">
-              <i class="fa-solid fa-briefcase"></i> WORK EXERIENCE
+              <i class="fa-solid fa-briefcase"></i> WORK EXPERIENCE
             </div>
             <div class="experience-list">
               <ul>
@@ -232,7 +233,7 @@
             </div>
             <div class="project">
               <div class="title">
-                <i class="fa-regular fa-file-lines"></i> PERSONAL PROJECT
+                <i class="fa-regular fa-file-lines"></i> PROJECT BEFORE GRADUATE
               </div>
               <div class="project-list">
                 <ul>
@@ -284,7 +285,7 @@
                 <p>Mobile Development Skills</p>
                 <ul>
                   <li>Flutter (Dart)</li>
-                  <li>React Native</li>
+                  <!-- <li>React Native</li> -->
                 </ul>
                 <p>IOT Development Skills</p>
                 <ul>
@@ -312,7 +313,65 @@
           </div>
         </div>
       </div>
-      <div class="footer"></div>
+      <div id="about-me" class="second-content" style="display: none"></div>
+      <div class="footer">
+        <div class="footer-content">
+          <!-- Lorem ipsum dolor sit amet consectetur, -->
+        </div>
+      </div>
     </div>
+    <script type="application/javascript">
+      /* let tabMenus = [
+        {
+          id: "btn-on-the-road",
+          name: "on-the-road",
+          text: "ON THE ROAD",
+          active: true,
+        },
+        {
+          id: "btn-about-me",
+          name: "about-me",
+          text: "ABOUT ME",
+          active: false,
+        },
+      ];
+      */
+
+      let tabMenus = [
+        {
+          id: "btn-on-the-road",
+          name: "on-the-road",
+          text: "ON THE ROAD",
+          active: true,
+        },
+      ];
+
+      window.onload = (event) => {
+        let tabElements = document.getElementById("tab-menus");
+        tabMenus.forEach((menu) => {
+          const node = document.createElement("button");
+          node.id = menu.id;
+          node.className = menu.active ? "active" : "";
+          node.innerHTML = menu.text;
+          node.setAttribute("onclick", `changeContent('${menu.name}')`);
+          tabElements.appendChild(node);
+        });
+      };
+
+      function changeContent(_content) {
+        let content = document.getElementById(_content);
+        tabMenus.forEach((menu) => {
+          let getContent = document.getElementById(menu.name);
+          let getBtn = document.getElementById(menu.id);
+          if (menu.name === _content) {
+            getBtn.className = "active";
+            getContent.style.display = "block";
+          } else {
+            getBtn.className = "";
+            getContent.style.display = "none";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
