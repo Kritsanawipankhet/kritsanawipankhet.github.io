@@ -48,6 +48,7 @@ a {
 .profile-info .summary {
   letter-spacing: 0.3px;
   font-weight: 300;
+  font-size: 14px;
 }
 
 .profile-image {
@@ -64,7 +65,9 @@ a {
 .profile-info {
   padding: 10px 20px;
 }
+
 .tabs {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,10 +113,40 @@ a {
   transform: scale(1.05);
 }
 
+.tabs .about-me {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.tabs .contacts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 35px;
+  width: 500px;
+  background-color: #000066;
+  position: absolute;
+  top: 49px;
+  right: 0;
+  padding-right: 40px;
+}
+
+.contacts .triangle {
+  position: absolute;
+  left: -34px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #000066 transparent transparent;
+}
+
 .contacts-list {
   display: flex;
   gap: 15px;
-  margin: 0px 40px 0px 20px;
 }
 
 .contacts-list .list-social {
@@ -313,11 +346,12 @@ a {
 }
 
 .footer-content {
+  font-size: 14px;
   text-align: right;
 }
 
-.second-content {
+/* .second-content {
   min-height: 600px;
   background-color: #fff;
   padding: 10px 40px 0px 40px;
-}
+} */
