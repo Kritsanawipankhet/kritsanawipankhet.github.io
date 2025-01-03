@@ -14,7 +14,9 @@ let language = {
     profileAddress:
       "75/1 M.9 T. Pratupa A. Mueanglamphun Lamphun 51000 , Thailand",
     workExperience: "WORK EXPERIENCE",
-    nttdataDate: "May 2, 2023 - Currently",
+    epicConsultingDate: "November 1, 2023 - Currently",
+    epicConsultingL1: '',
+    nttdataDate: "May 2, 2023 - October 31, 2023",
     nttdataL1: "Developed a POS system and was assigned as a Full Stack Developer to create applications using Vue.js as the front-end framework and Node.js for back-end development",
     locusDate: "June 1, 2022 - April 28, 2023",
     locusL1:
@@ -62,6 +64,8 @@ let language = {
     profileAddress:
       "75/1 ม.9 ต.ประตูป่า อ.เมืองลำพูน จ.ลำพูน 51000 , ประเทศไทย",
     workExperience: "ประสบการณ์การทำงาน",
+    epicConsultingDate: "November 1, 2023 - Currently",
+    epicConsultingL1: '',
     nttdataDate: "2 พฤษภาคม 2565 - ปัจจุบัน",
     nttdataL1: "พัฒนาระบบ POS และได้รับมอบหมายให้เป็น Full Stack Developer ในการสร้างแอพพลิเคชั่นโดยใช้ Vue.js เป็นเฟรมเวิร์กหน้าบ้าน และ Node.js สำหรับงานหลังบ้าน",
     locusDate: "1 มิถุนายน 2564 - 28 เมษายน 2565",
@@ -127,14 +131,13 @@ locale.addEventListener("click", (e) => {
 function changeLanguage(languageCode) {
   let currentLanguage = language[languageCode];
   if (currentLanguage) {
+    updateBirthdateDisplay(locale.classList.contains("active") ? 'th-TH' : 'en-US')
     document.getElementById("profile-name").textContent =
       currentLanguage.profileName;
     document.getElementById("profile-faculty").textContent =
       currentLanguage.profileFaculty;
     document.getElementById("profile-summary").textContent =
       currentLanguage.profileSummary;
-    document.getElementById("profile-birthdate").textContent =
-      currentLanguage.profileBirthDate;
     document.getElementById("profile-address").textContent =
       currentLanguage.profileAddress;
     document.getElementById("work-experience").textContent =
@@ -202,3 +205,47 @@ function changeLanguage(languageCode) {
     document.getElementById("achievements-l2").textContent = currentLanguage.achievementsL2;
   }
 }
+
+function calculateAge(birthdate,locale) {
+  const birthDate = new Date(birthdate);
+  const currentDate = new Date();
+
+  let ageYears = currentDate.getFullYear() - birthDate.getFullYear();
+  let ageMonths = currentDate.getMonth() - birthDate.getMonth();
+
+  if (
+    ageMonths < 0 ||
+    (ageMonths === 0 && currentDate.getDate() < birthDate.getDate())
+  ) {
+    ageYears--;
+    ageMonths += 12;
+  }
+
+  let ageDays = currentDate.getDate() - birthDate.getDate();
+  if (ageDays < 0) {
+
+    const previousMonth = new Date(
+      currentDate.getFullYear(),
+      currentDate.getMonth(),
+      0
+    );
+    ageDays += previousMonth.getDate();
+    ageMonths--;
+  }
+
+  return `${ageYears} ${locale == 'en-US' ? 'Years old' : 'ปี'}`;
+}
+
+function updateBirthdateDisplay(locale) {
+  const birthdate = "1998-03-22";
+  const formattedBirthdateEnglish = "22 March 1998";
+  const formattedBirthdateThai = "22 มีนาคม 1998"; 
+  const age = calculateAge(birthdate, locale); 
+
+  const birthdateElement = document.getElementById("profile-birthdate");
+  if (birthdateElement) {
+    birthdateElement.textContent = `${locale == 'en-US' ? formattedBirthdateEnglish : formattedBirthdateThai}, ${age}`;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", updateBirthdateDisplay(locale.classList.contains("active") ? 'th-TH' : 'en-US'));
