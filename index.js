@@ -2,22 +2,27 @@ let language = {
   "en-US": {
     profileName: "Kritsana Wipankhet",
     profileFaculty: "Web & Application Developer",
-    profileSummary: `Freelance Web Designer & Developer. I design and develop websites,
-    web applications , mobile applications , IOT development. Be a
-    consultant and recommend about the development of applications for
-    friends, students and the general public. experienced with all
-    stages of the development for web projects. Excellent knowledge in
-    many programming languages such as JavaScript(Vue.js, React.js ,
-    Next.js, Node.js ), Flutter (Dart) , Typescript , PHP (Laravel
-    framework), ASP.NET (.NET6) , and CSS`,
+    profileSummary: `Freelance Web Designer & Developer. I design and develop websites, web applications , mobile applications , IOT development. Be a consultant and recommend about the development of applications for friends, students and the general public. experienced with all stages of the development for web projects. Excellent knowledge in many programming languages such as JavaScript(Vue.js, Nuxt.js, React.js, Next.js, Node.js), Flutter (Dart), Typescript, Nest.js`,
     profileBirthDate: " 22 March 1998, 25 Years old",
     profileAddress:
       "75/1 M.9 T. Pratupa A. Mueanglamphun Lamphun 51000 , Thailand",
     workExperience: "WORK EXPERIENCE",
     epicConsultingDate: "November 1, 2023 - Currently",
-    epicConsultingL1: '',
+    epicConsultingL1:
+      "Developed and improved MyAIS App for both Frontend and Backend using Flutter and NestJS",
+    epicConsultingL2:
+      "Designed and implemented Backend Services with Event-Driven Architecture using Kafka, ksqlDB, and CDC",
+    epicConsultingL3:
+      "Managed MongoDB and Mongo Realm to support flexible data structures",
+    epicConsultingL4:
+      "Configured and maintained CI/CD Pipelines using GitHub Actions and ArgoCD for smooth deployment",
+    epicConsultingL5:
+      "Ensured code quality using SonarQube and utilized Elasticsearch for data analysis and search optimization",
+    epicConsultingL6:
+      "Collaborated with development teams to ensure system stability and scalability",
     nttdataDate: "May 2, 2023 - October 31, 2023",
-    nttdataL1: "Developed a POS system and was assigned as a Full Stack Developer to create applications using Vue.js as the front-end framework and Node.js for back-end development",
+    nttdataL1:
+      "Developed a POS system and was assigned as a Full Stack Developer to create applications using Vue.js as the front-end framework and Node.js for back-end development",
     locusDate: "June 1, 2022 - April 28, 2023",
     locusL1:
       "Developed a CRM system using the low-code platform called OutSystems to create the application.",
@@ -53,21 +58,35 @@ let language = {
     kmitlName: "King Mongkut's Institute of Technology Ladkrabang",
     cmtcName: "Chiang Mai Technical College",
     ltcName: "Lamphun Technical College",
-    achievementsL1: "The Second Runner-up, TurtleBOT3 Thailand Championship 2019",
-    achievementsL2: "The Winner, Thailand National Micro Controller Skills Competition 2018",
+    achievementsL1:
+      "The Second Runner-up, TurtleBOT3 Thailand Championship 2019",
+    achievementsL2:
+      "The Winner, Thailand National Micro Controller Skills Competition 2018",
   },
   "th-TH": {
     profileName: "กฤษณะ วิปันเขตร์",
     profileFaculty: "นักพัฒนาเว็บและแอปพลิเคชัน",
-    profileSummary: `นักออกแบบและพัฒนาเว็บและแอปพลิเคชันอิสระ ฉันออกแบบและพัฒนาเว็บไซต์, แอปพลิเคชันเว็บ, แอปพลิเคชันมือถือ, และพัฒนาเทคโนโลยี IoT ฉันเป็นที่ปรึกษาและแนะนำเรื่องการพัฒนาแอปพลิเคชันให้กับเพื่อน, นักเรียน, และบุคคลทั่วไป มีประสบการณ์ในทุกขั้นตอนของการพัฒนาโปรเจ็คเว็บ มีความรู้เป็นอย่างดีในหลายภาษาโปรแกรมมิ่ง เช่น JavaScript (Vue.js, React.js, Next.js, Node.js), Flutter (Dart), Typescript, PHP (Laravel framework), ASP.NET (.NET6), และ CSS`,
+    profileSummary: `นักออกแบบและพัฒนาเว็บและแอปพลิเคชัน และพัฒนาเทคโนโลยี IoT ฉันเป็นที่ปรึกษาและแนะนำเรื่องการพัฒนาแอปพลิเคชันให้กับบุคคลทั่วไป มีประสบการณ์ในทุกขั้นตอนของการพัฒนาโปรเจ็คเว็บ มีความรู้เป็นอย่างดีในหลายภาษาโปรแกรมมิ่ง เช่น JavaScript (Vue.js, Nuxt.js, React.js, Next.js, Node.js), Flutter (Dart), Typescript, Nest.js`,
     profileBirthDate: "22 March 1998, อายุ 25 ปี",
     profileAddress:
       "75/1 ม.9 ต.ประตูป่า อ.เมืองลำพูน จ.ลำพูน 51000 , ประเทศไทย",
     workExperience: "ประสบการณ์การทำงาน",
-    epicConsultingDate: "November 1, 2023 - Currently",
-    epicConsultingL1: '',
-    nttdataDate: "2 พฤษภาคม 2565 - ปัจจุบัน",
-    nttdataL1: "พัฒนาระบบ POS และได้รับมอบหมายให้เป็น Full Stack Developer ในการสร้างแอพพลิเคชั่นโดยใช้ Vue.js เป็นเฟรมเวิร์กหน้าบ้าน และ Node.js สำหรับงานหลังบ้าน",
+    epicConsultingDate: "1 พฤศจิกายน 2565 - ปัจจุบัน",
+    epicConsultingL1:
+      "พัฒนาและปรับปรุง MyAIS App ทั้งในส่วน Frontend และ Backend โดยใช้ Flutter และ NestJS",
+    epicConsultingL2:
+      "ออกแบบและพัฒนา Backend Service รองรับ Event-Driven Architecture ด้วย Kafka, ksqlDB และ CDC",
+    epicConsultingL3:
+      "จัดการฐานข้อมูล MongoDB และ Mongo Realm เพื่อรองรับโครงสร้างข้อมูลแบบยืดหยุ่น",
+    epicConsultingL4:
+      "ตั้งค่าและดูแล CI/CD Pipeline โดยใช้ GitHub Actions และ ArgoCD เพื่อให้การพัฒนาและปรับใช้ระบบเป็นไปอย่างราบรื่น",
+    epicConsultingL5:
+      "ตรวจสอบคุณภาพของโค้ดด้วย SonarQube และใช้ Elasticsearch สำหรับการค้นหาและวิเคราะห์ข้อมูล",
+    epicConsultingL6:
+      "ประสานงานกับทีมพัฒนาเพื่อให้มั่นใจว่าแอปสามารถรองรับผู้ใช้งานจำนวนมากได้อย่างเสถียร",
+    nttdataDate: "2 พฤษภาคม 2565 - 31 ตุลาคม 2565",
+    nttdataL1:
+      "พัฒนาระบบ POS และได้รับมอบหมายให้เป็น Full Stack Developer ในการสร้างแอพพลิเคชั่นโดยใช้ Vue.js เป็นเฟรมเวิร์กหน้าบ้าน และ Node.js สำหรับงานหลังบ้าน",
     locusDate: "1 มิถุนายน 2564 - 28 เมษายน 2565",
     locusL1:
       "พัฒนาระบบ CRM โดยใช้แพลตฟอร์ม Low-Code ที่ชื่อ OutSystems เพื่อสร้างแอปพลิเคชัน",
@@ -103,9 +122,10 @@ let language = {
     kmitlName: "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
     cmtcName: "วิทยาลัยเทคนิคเชียงใหม่",
     ltcName: "วิทยาลัยเทคนิคลำพูน",
-    achievementsL1: "รางวัลรองชนะเลิศลำดับที่ 1 , การแข่งขัน TurtleBOT3 Thailand Championship 2019",
-    achievementsL2: "รางวัลชนะเลิศลำดับที่ 1, การแข่งขันทักษะไมโครคอนโทรลเลอร์ ระดับชาติ ประจำปีการศึกษา 2560",
-    
+    achievementsL1:
+      "รางวัลรองชนะเลิศลำดับที่ 1 , การแข่งขัน TurtleBOT3 Thailand Championship 2019",
+    achievementsL2:
+      "รางวัลชนะเลิศลำดับที่ 1, การแข่งขันทักษะไมโครคอนโทรลเลอร์ ระดับชาติ ประจำปีการศึกษา 2560",
   },
 };
 
@@ -120,18 +140,22 @@ locale.addEventListener("click", (e) => {
   if (locale.classList.contains("active")) {
     changeLanguage("th-TH");
     body.style.fontFamily = "Kanit, sans-serif";
-    downloadLink.href = '/Kritsana Wipankhet - CV (Curriculum Vitae) - Thai.pdf';
+    downloadLink.href =
+      "/Kritsana Wipankhet - CV (Curriculum Vitae) - Thai.pdf";
   } else {
     changeLanguage("en-US");
     body.style.fontFamily = "Sarabun, sans-serif";
-    downloadLink.href = '/Kritsana Wipankhet - CV (Curriculum Vitae) - English.pdf'
+    downloadLink.href =
+      "/Kritsana Wipankhet - CV (Curriculum Vitae) - English.pdf";
   }
 });
 
 function changeLanguage(languageCode) {
   let currentLanguage = language[languageCode];
   if (currentLanguage) {
-    updateBirthdateDisplay(locale.classList.contains("active") ? 'th-TH' : 'en-US')
+    updateBirthdateDisplay(
+      locale.classList.contains("active") ? "th-TH" : "en-US"
+    );
     document.getElementById("profile-name").textContent =
       currentLanguage.profileName;
     document.getElementById("profile-faculty").textContent =
@@ -142,9 +166,24 @@ function changeLanguage(languageCode) {
       currentLanguage.profileAddress;
     document.getElementById("work-experience").textContent =
       currentLanguage.workExperience;
+    document.getElementById("epic-consulting-date").textContent =
+      currentLanguage.epicConsultingDate;
+    document.getElementById("epic-consulting-l1").textContent =
+      currentLanguage.epicConsultingL1;
+    document.getElementById("epic-consulting-l2").textContent =
+      currentLanguage.epicConsultingL2;
+    document.getElementById("epic-consulting-l3").textContent =
+      currentLanguage.epicConsultingL3;
+    document.getElementById("epic-consulting-l4").textContent =
+      currentLanguage.epicConsultingL4;
+    document.getElementById("epic-consulting-l5").textContent =
+      currentLanguage.epicConsultingL5;
+    document.getElementById("epic-consulting-l6").textContent =
+      currentLanguage.epicConsultingL6;
     document.getElementById("nttdata-date").textContent =
       currentLanguage.nttdataDate;
-    document.getElementById("nttdata-l1").textContent = currentLanguage.nttdataL1;
+    document.getElementById("nttdata-l1").textContent =
+      currentLanguage.nttdataL1;
     document.querySelectorAll("#location-bangkok").forEach((e) => {
       e.textContent = currentLanguage.locationBangkok;
     });
@@ -152,10 +191,8 @@ function changeLanguage(languageCode) {
       currentLanguage.internalTransfer;
     document.getElementById("locus-date").textContent =
       currentLanguage.locusDate;
-    document.getElementById("locus-l1").textContent =
-      currentLanguage.locusL1;
-    document.getElementById("locus-l2").textContent =
-      currentLanguage.locusL2;
+    document.getElementById("locus-l1").textContent = currentLanguage.locusL1;
+    document.getElementById("locus-l2").textContent = currentLanguage.locusL2;
     document.querySelectorAll("#internship").forEach((e) => {
       e.textContent = currentLanguage.internship;
     });
@@ -167,8 +204,7 @@ function changeLanguage(languageCode) {
       currentLanguage.makerasiaL2;
     document.getElementById("location-chiangmai").textContent =
       currentLanguage.locationChiangMai;
-    document.getElementById("ltc-date").textContent =
-      currentLanguage.ltcDate;
+    document.getElementById("ltc-date").textContent = currentLanguage.ltcDate;
     document.getElementById("ltc-l1").textContent = currentLanguage.ltcL1;
     document.getElementById("ltc-l2").textContent = currentLanguage.ltcL2;
     document.getElementById("location-lamphun").textContent =
@@ -182,31 +218,33 @@ function changeLanguage(languageCode) {
     document.getElementById("project-before-graduate").textContent =
       currentLanguage.projectBeforeGraduate;
 
-    document.getElementById("bachelor").textContent =
-      currentLanguage.bachelor;
+    document.getElementById("bachelor").textContent = currentLanguage.bachelor;
     document.getElementById("higher-vocational-certificate").textContent =
       currentLanguage.higherVocationalCertificate;
     document.getElementById("vocational-certificate").textContent =
       currentLanguage.vocationalCertificate;
     document.getElementById("kmitl-name").textContent =
       currentLanguage.kmitlName;
-    document.getElementById("cmtc-name").textContent =
-      currentLanguage.cmtcName;
-    document.getElementById("ltc-name").textContent =
-      currentLanguage.ltcName;
+    document.getElementById("cmtc-name").textContent = currentLanguage.cmtcName;
+    document.getElementById("ltc-name").textContent = currentLanguage.ltcName;
     document.querySelectorAll("#GPAX").forEach((e) => {
       e.textContent = currentLanguage.GPAX;
     });
-    document.getElementById("kmitl-graduate").textContent = currentLanguage.kmitlGraduate;
-    document.getElementById("cmtc-graduate").textContent = currentLanguage.cmtcGraduate;
-    document.getElementById("ltc-graduate").textContent = currentLanguage.ltcGraduate;
+    document.getElementById("kmitl-graduate").textContent =
+      currentLanguage.kmitlGraduate;
+    document.getElementById("cmtc-graduate").textContent =
+      currentLanguage.cmtcGraduate;
+    document.getElementById("ltc-graduate").textContent =
+      currentLanguage.ltcGraduate;
 
-    document.getElementById("achievements-l1").textContent = currentLanguage.achievementsL1;
-    document.getElementById("achievements-l2").textContent = currentLanguage.achievementsL2;
+    document.getElementById("achievements-l1").textContent =
+      currentLanguage.achievementsL1;
+    document.getElementById("achievements-l2").textContent =
+      currentLanguage.achievementsL2;
   }
 }
 
-function calculateAge(birthdate,locale) {
+function calculateAge(birthdate, locale) {
   const birthDate = new Date(birthdate);
   const currentDate = new Date();
 
@@ -223,7 +261,6 @@ function calculateAge(birthdate,locale) {
 
   let ageDays = currentDate.getDate() - birthDate.getDate();
   if (ageDays < 0) {
-
     const previousMonth = new Date(
       currentDate.getFullYear(),
       currentDate.getMonth(),
@@ -233,19 +270,26 @@ function calculateAge(birthdate,locale) {
     ageMonths--;
   }
 
-  return `${ageYears} ${locale == 'en-US' ? 'Years old' : 'ปี'}`;
+  return `${ageYears} ${locale == "en-US" ? "Years old" : "ปี"}`;
 }
 
 function updateBirthdateDisplay(locale) {
   const birthdate = "1998-03-22";
   const formattedBirthdateEnglish = "22 March 1998";
-  const formattedBirthdateThai = "22 มีนาคม 1998"; 
-  const age = calculateAge(birthdate, locale); 
+  const formattedBirthdateThai = "22 มีนาคม 1998";
+  const age = calculateAge(birthdate, locale);
 
   const birthdateElement = document.getElementById("profile-birthdate");
   if (birthdateElement) {
-    birthdateElement.textContent = `${locale == 'en-US' ? formattedBirthdateEnglish : formattedBirthdateThai}, ${age}`;
+    birthdateElement.textContent = `${
+      locale == "en-US" ? formattedBirthdateEnglish : formattedBirthdateThai
+    }, ${age}`;
   }
 }
 
-document.addEventListener("DOMContentLoaded", updateBirthdateDisplay(locale.classList.contains("active") ? 'th-TH' : 'en-US'));
+document.addEventListener(
+  "DOMContentLoaded",
+  updateBirthdateDisplay(
+    locale.classList.contains("active") ? "th-TH" : "en-US"
+  )
+);
