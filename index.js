@@ -3,11 +3,19 @@ let language = {
     profileName: "Kritsana Wipankhet",
     profileFaculty: "Web & Application Developer",
     profileSummary: `Freelance Web Designer & Developer. I design and develop websites, web applications , mobile applications , IOT development. Be a consultant and recommend about the development of applications for friends, students and the general public. experienced with all stages of the development for web projects. Excellent knowledge in many programming languages such as JavaScript(Vue.js, Nuxt.js, React.js, Next.js, Node.js), Flutter (Dart), Typescript, Nest.js`,
-    profileBirthDate: " 22 March 1998, 25 Years old",
+    profileBirthDate: " 22 March 1998, 28 Years old",
+    // profileAddress:
+    //   "75/1 M.9 T. Pratupa A. Mueanglamphun Lamphun 51000 , Thailand",
     profileAddress:
-      "75/1 M.9 T. Pratupa A. Mueanglamphun Lamphun 51000 , Thailand",
+      "Bangkok , Thailand",
     workExperience: "WORK EXPERIENCE",
-    epicConsultingDate: "November 1, 2023 - Currently",
+    theProdigyDate: "1 April 2569 - Currently",
+    theProdigyL1: "Developed and maintained ERP Platform applications for internal banking operations using Flutter.",
+    theProdigyL2: "Designed scalable application architecture and reusable component libraries to improve maintainability.",
+    theProdigyL3: "Collaborated with cross-functional teams to deliver business-critical banking solutions.",
+    theProdigyL4: "Conducted code reviews and mentored junior developers to ensure code quality and best practices.",
+    theProdigyL5: "Optimized application performance and supported production releases to ensure system reliability.",
+    epicConsultingDate: "November 1, 2023 - March 31, 2026",
     epicConsultingL1:
       "Developed and improved MyAIS App for both Frontend and Backend using Flutter and NestJS",
     epicConsultingL2:
@@ -20,6 +28,8 @@ let language = {
       "Ensured code quality using SonarQube and utilized Elasticsearch for data analysis and search optimization",
     epicConsultingL6:
       "Collaborated with development teams to ensure system stability and scalability",
+    epicConsultingL7:
+      "Applied TM Forum's Open Digital Architecture (ODA) principles to design modular and reusable service components, ensuring alignment with industry-standard API specifications and promoting interoperability across systems",
     nttdataDate: "May 2, 2023 - October 31, 2023",
     nttdataL1:
       "Developed a POS system and was assigned as a Full Stack Developer to create applications using Vue.js as the front-end framework and Node.js for back-end development",
@@ -67,11 +77,19 @@ let language = {
     profileName: "กฤษณะ วิปันเขตร์",
     profileFaculty: "นักพัฒนาเว็บและแอปพลิเคชัน",
     profileSummary: `นักออกแบบและพัฒนาเว็บและแอปพลิเคชัน และพัฒนาเทคโนโลยี IoT ฉันเป็นที่ปรึกษาและแนะนำเรื่องการพัฒนาแอปพลิเคชันให้กับบุคคลทั่วไป มีประสบการณ์ในทุกขั้นตอนของการพัฒนาโปรเจ็คเว็บ มีความรู้เป็นอย่างดีในหลายภาษาโปรแกรมมิ่ง เช่น JavaScript (Vue.js, Nuxt.js, React.js, Next.js, Node.js), Flutter (Dart), Typescript, Nest.js`,
-    profileBirthDate: "22 March 1998, อายุ 25 ปี",
+    profileBirthDate: "22 March 1998, อายุ 28 ปี",
+    // profileAddress:
+    //   "75/1 ม.9 ต.ประตูป่า อ.เมืองลำพูน จ.ลำพูน 51000 , ประเทศไทย",
     profileAddress:
-      "75/1 ม.9 ต.ประตูป่า อ.เมืองลำพูน จ.ลำพูน 51000 , ประเทศไทย",
+      "กรุงเทพฯ, ประเทศไทย",
     workExperience: "ประสบการณ์การทำงาน",
-    epicConsultingDate: "1 พฤศจิกายน 2565 - ปัจจุบัน",
+    theProdigyDate: "1 เมษายน 2569 - ปัจจุบัน",
+    theProdigyL1: "พัฒนาและดูแลระบบ ERP Platform สำหรับการดำเนินงานภายในธนาคารด้วย Flutter",
+    theProdigyL2: "ออกแบบสถาปัตยกรรมแอปพลิเคชันและ Component Library ที่สามารถนำกลับมาใช้ซ้ำได้ เพื่อเพิ่มความสามารถในการบำรุงรักษาระบบ",
+    theProdigyL3: "ทำงานร่วมกับทีมข้ามสายงานเพื่อส่งมอบโซลูชันสำคัญสำหรับธุรกิจธนาคาร",
+    theProdigyL4: "ดำเนินการ Code Review และให้คำแนะนำแก่นักพัฒนารุ่นใหม่เพื่อยกระดับคุณภาพซอฟต์แวร์และแนวปฏิบัติที่ดีในการพัฒนา",
+    theProdigyL5: "ปรับปรุงประสิทธิภาพของระบบและสนับสนุนการนำระบบขึ้นใช้งานจริง เพื่อให้มั่นใจในเสถียรภาพและความน่าเชื่อถือของระบบ",
+    epicConsultingDate: "1 พฤศจิกายน 2565 - 31 มีนาคม 2569",
     epicConsultingL1:
       "พัฒนาและปรับปรุง MyAIS App ทั้งในส่วน Frontend และ Backend โดยใช้ Flutter และ NestJS",
     epicConsultingL2:
@@ -84,6 +102,7 @@ let language = {
       "ตรวจสอบคุณภาพของโค้ดด้วย SonarQube และใช้ Elasticsearch สำหรับการค้นหาและวิเคราะห์ข้อมูล",
     epicConsultingL6:
       "ประสานงานกับทีมพัฒนาเพื่อให้มั่นใจว่าแอปสามารถรองรับผู้ใช้งานจำนวนมากได้อย่างเสถียร",
+    epicConsultingL7: "ออกแบบ Service Components ตามแนวทาง TM Forum Open Digital Architecture (ODA) เพื่อรองรับการนำกลับมาใช้ซ้ำ มาตรฐาน API และการเชื่อมต่อระหว่างระบบ",
     nttdataDate: "2 พฤษภาคม 2565 - 31 ตุลาคม 2565",
     nttdataL1:
       "พัฒนาระบบ POS และได้รับมอบหมายให้เป็น Full Stack Developer ในการสร้างแอพพลิเคชั่นโดยใช้ Vue.js เป็นเฟรมเวิร์กหน้าบ้าน และ Node.js สำหรับงานหลังบ้าน",
@@ -99,9 +118,9 @@ let language = {
       "การสร้างและพัฒนาอุปกรณ์ ตัวเซนเซอร์ และซอฟต์แวร์ที่อนุญาตให้อุปกรณ์เชื่อมต่อกับระบบอื่นๆ อย่างมีความราบรื่น การสร้าง ทดสอบ และเอกสารระบบ IoT รวมถึงระบบและอุปกรณ์ที่ผนวกเข้ากัน",
     ltcDate: "6 พฤษภาคม 2558 - 19 กันยายน 2558",
     ltcL1:
-      "เป็นผู้ช่วยด้านเทคโนโลยีสารสนเทศ (IT assistant) รับผิดชอบในการตรวจสอบเครือข่ายคอมพิวเตอร์ของวิทยาลัยเพื่อระบุข้อผิดพลาด ซ่อมแซมอุปกรณ์ที่มีปัญหา และดำเนินการแก้ไขที่จำเป็นในแต่ละวัน โดยมีปัญหาเกิดขึ้นเป็นประจำบนเครือข่ายและอุปกรณ์ที่ติดตั้งทั้งหมด",
+      "ตรวจสอบและแก้ไขปัญหาเครือข่ายคอมพิวเตอร์และอุปกรณ์ไอทีของวิทยาลัย",
     ltcL2:
-      "ในกรณีที่วิทยาลัยจัดซื้อเครือข่ายคอมพิวเตอร์ใหม่ ได้รับหน้าที่เป็นผู้ช่วยด้านเทคโนโลยีสารสนเทศ (IT assistant) จะรับผิดชอบในการติดตั้งและกำหนดค่าเครือข่ายใหม่เพื่อให้บุคลากรสามารถเริ่มใช้งานได้โดยเร็วที่สุด นอกจากนี้ เครือข่ายคอมพิวเตอร์ใหม่จะต้องถูกกำหนดค่าให้ตรงตามความต้องการเฉพาะของวิทยาลัยด้วย",
+      "ติดตั้งและกำหนดค่าโครงสร้างพื้นฐานเครือข่ายให้รองรับการใช้งานของบุคลากรและระบบภายในวิทยาลัย",
     locationBangkok: "กรุงเทพมหานครฯ, ประเทศไทย",
     locationChiangMai: "เชียงใหม่, ประเทศไทย",
     locationLamphun: "ลำพูน, ประเทศไทย",
@@ -166,6 +185,18 @@ function changeLanguage(languageCode) {
       currentLanguage.profileAddress;
     document.getElementById("work-experience").textContent =
       currentLanguage.workExperience;
+    document.getElementById("the-prodigy-date").textContent =
+      currentLanguage.theProdigyDate;
+    document.getElementById("the-prodigy-l1").textContent =
+      currentLanguage.theProdigyL1;
+    document.getElementById("the-prodigy-l2").textContent =
+      currentLanguage.theProdigyL2;
+    document.getElementById("the-prodigy-l3").textContent =
+      currentLanguage.theProdigyL3;
+    document.getElementById("the-prodigy-l4").textContent =
+      currentLanguage.theProdigyL4;
+    document.getElementById("the-prodigy-l5").textContent =
+      currentLanguage.theProdigyL5;
     document.getElementById("epic-consulting-date").textContent =
       currentLanguage.epicConsultingDate;
     document.getElementById("epic-consulting-l1").textContent =
@@ -180,6 +211,8 @@ function changeLanguage(languageCode) {
       currentLanguage.epicConsultingL5;
     document.getElementById("epic-consulting-l6").textContent =
       currentLanguage.epicConsultingL6;
+    document.getElementById("epic-consulting-l7").textContent =
+      currentLanguage.epicConsultingL7;
     document.getElementById("nttdata-date").textContent =
       currentLanguage.nttdataDate;
     document.getElementById("nttdata-l1").textContent =
@@ -202,13 +235,13 @@ function changeLanguage(languageCode) {
       currentLanguage.makerasiaL1;
     document.getElementById("makerasia-l2").textContent =
       currentLanguage.makerasiaL2;
-    document.getElementById("location-chiangmai").textContent =
-      currentLanguage.locationChiangMai;
+    // document.getElementById("location-chiangmai").textContent =
+    //   currentLanguage.locationChiangMai;
     document.getElementById("ltc-date").textContent = currentLanguage.ltcDate;
     document.getElementById("ltc-l1").textContent = currentLanguage.ltcL1;
     document.getElementById("ltc-l2").textContent = currentLanguage.ltcL2;
-    document.getElementById("location-lamphun").textContent =
-      currentLanguage.locationLamphun;
+    // document.getElementById("location-lamphun").textContent =
+    //   currentLanguage.locationLamphun;
     document.getElementById("education").textContent =
       currentLanguage.education;
     document.getElementById("technical-skill").textContent =
@@ -281,9 +314,8 @@ function updateBirthdateDisplay(locale) {
 
   const birthdateElement = document.getElementById("profile-birthdate");
   if (birthdateElement) {
-    birthdateElement.textContent = `${
-      locale == "en-US" ? formattedBirthdateEnglish : formattedBirthdateThai
-    }, ${age}`;
+    birthdateElement.textContent = `${locale == "en-US" ? formattedBirthdateEnglish : formattedBirthdateThai
+      }, ${age}`;
   }
 }
 
